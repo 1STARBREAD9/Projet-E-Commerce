@@ -1,0 +1,151 @@
+
+body {
+    background: linear-gradient(111.9deg, rgb(221, 49, 49) 0.3%, rgb(0, 8, 119) 100.7%);
+    background-size: 100%;
+    font-family: Arial, sans-serif;
+    font-size: 18px;
+    font-weight: 900px;
+    overflow: hidden;
+    
+}
+
+form {
+    margin:auto;
+    max-width: 450px;
+    padding: 50px;
+    background-color: #fff;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    
+}
+
+label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="password"] {
+    width: 98%;
+    padding: 5px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+.erreur {
+    display: none;
+    color: #ff0000;
+    font-size: 15px;
+    margin-top: 5px;
+}
+
+button[type="submit"] {
+    border: none;
+    border-radius: .3rem;
+    padding: .3rem 1rem;
+    font-size: 1rem;
+    cursor: pointer;
+    text-decoration: none;
+    text-align: center;
+    background-color: #df1d20;
+    box-shadow: -8px 5px 10px #a43030;
+    margin-top: 5px;
+}
+
+button[type="submit"]:hover {
+    color: #ffffff;
+    background-color: #c45b5d;
+    box-shadow: -8px 5px 10px #ff8e8e;
+}
+
+
+
+
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+label {
+    margin-top: 10px;
+}
+
+input {
+    padding: 5px;
+    margin-top: 5px;
+}
+
+.erreur {
+    display: none;
+    margin-top: 5px;
+    color: red;
+}
+
+input:invalid+.erreur {
+    display: block;
+}
+
+
+
+/* EN BAS LE CSS DE  FORCE MDP */
+
+
+
+
+
+#force {
+    display: inline-block;
+    width: 150px;
+    height: 5px;
+    margin-top: 10px;
+    padding-bottom: 10px;
+    background-color: #ddd;
+}
+
+#force div {
+    height: 100%;
+
+}
+
+#force div.force-0 {
+    background-color: #ff0000;
+}
+
+#force div.force-1 {
+    background-color: #ff8000;
+}
+
+#force div.force-2 {
+    background-color: #ffff00;
+}
+
+#force div.force-3 {
+    background-color: #80ff00;
+}
+
+#force div.force-4 {
+    background-color: #00ff00;
+}
+.page-header {
+    text-align: center;
+    font-size: 1.6rem;
+    font-weight: 600;
+}
+
+a {
+    text-decoration: none;
+    color: #000000;
+
+}
+
+a:hover {
+    color: #89c8ff;
+}
+
+span{
+    padding-top: 10px;
+    text-align: center;
+}

@@ -1,0 +1,134 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@100&display=swap');
+
+
+body {
+  font-family: Arial, sans-serif;
+  background: linear-gradient(111.9deg, rgb(221, 49, 49) 0.3%, rgb(0, 8, 119) 100.7%);
+    margin: auto;
+  padding: 140px;
+  overflow: scroll; 
+}
+
+
+.product {
+  background-color: #fff;
+  padding: 20px;
+  box-shadow: 0 0 2px rgba(0, 0, 0, 0.2);
+  border-radius: 8px;
+  margin:auto;
+  text-decoration: none;
+  cursor: grab;
+
+}
+
+.product img {
+  max-width: 100%;
+  height: auto;
+  margin-bottom: 30px;
+}
+
+.product h3 {
+  font-size: 20px;
+  font-weight: bold;
+  margin-top: 0;
+  margin-bottom: 20px;
+  text-align: center;
+}
+.product p {
+  font-size: 20px;
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+.btn {
+  display: inline-flex;
+  background-color: #206acb;
+  color: #fff;
+  padding: 10px 20px;
+  border-radius: 5px;
+  text-decoration: none;
+  margin-top: 20px;
+  margin-left: 110px;
+  justify-content: center;
+}
+
+.btn:hover {
+  background-color: #d23b11;
+  cursor: pointer;
+}
+
+
+
+.produit {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-gap: 30px;
+  position:relative;
+}
+@media (max-width: 768px) {
+  .produit {
+      grid-template-columns: repeat(2, 1fr);
+  }
+}
+@media (max-width: 480px) {
+  .produit {
+      grid-template-columns: repeat(1, 1fr);
+  }
+}
+
+.product:hover{
+background-color: #9df9ef;
+}
+
+.filter-container {
+  display: flex;
+  margin-bottom: 10px;
+}
+
+label {
+  margin-right: 5px;
+}
+
+select {
+  margin-right: 10px;
+}
+
+.container {
+  margin-bottom: 100px;
+  padding-top: 10px;
+  padding-bottom: 0px;
+  background-color: #ffffff;
+  border-radius: 10px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  text-align: center;
+  position: relative;
+}
+
+select, input[type="text"], button {
+  margin-bottom: 10px;
+  padding: 8px;
+  font-size: 16px;
+  border-radius: 5px;
+  border: 1px solid #cccccc;
+}
+
+
+button {
+  background-color: #4caf50;
+  color: #ffffff;
+  cursor: pointer;
+  margin-left: 20px;
+  
+}
+
+button[onclick="resetForm()"] {
+  background-color: #ea0c38;
+  color: #ffffff;
+  cursor: pointer;
+  margin-left: 20px;
+}
+
+
+button:hover {
+  background-color: #206acb;
+}

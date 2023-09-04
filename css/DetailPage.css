@@ -1,0 +1,40 @@
+body {
+  background: linear-gradient(111.9deg, rgb(221, 49, 49) 0.3%, rgb(0, 8, 119) 100.7%);
+  margin: auto;
+
+}
+
+
+.icon-hover:hover {
+    border-color: #3b71ca !important;
+    background-color: white !important;
+    color: #3b71ca !important;
+  }
+  
+  .icon-hover:hover i {
+    color: #3b71ca !important;
+  }
+
+  .col-lg-6{
+    color:white;
+  }
+
+
+  .images {
+       display: flex;
+      justify-items: center;
+      margin-left: 20px;
+      padding: 50px;
+  }
+
+  /* .images .thumbnail {
+    display: none;
+  } */
+  
+  .images:hover .main-image {
+    display: none;
+  }
+  
+  .images:hover .thumbnail {
+    display: block;
+  }
